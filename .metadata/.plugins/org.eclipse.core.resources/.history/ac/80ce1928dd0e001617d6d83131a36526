@@ -7,7 +7,7 @@ public class ExampleUserInput {
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter a Number");
+		/*System.out.println("Enter a Number");
 		int a=scan.nextInt();		
 		System.out.println("You Entered number");
 		System.out.println(a);
@@ -15,13 +15,12 @@ public class ExampleUserInput {
 		System.out.println("Enter a Double");
 		double b=scan.nextDouble();		
 		System.out.println("You Entered Double");
-		System.out.println(b);
+		System.out.println(b);*/
 		
 		System.out.println("Enter a String");
 		String c=scan.nextLine();		
 		System.out.println("You Entered String");
 		System.out.println(c);
-		scan.close();
 	}
 
 }
