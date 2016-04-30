@@ -1,0 +1,23 @@
+package day1.examples;
+
+public class ExampleIf {
+
+	public static void main(String[] args) {
+		
+		int x=10;
+		int y=10;
+		
+		If(x<y){
+			System.out.println("x is smaller than y");
+		}
+		
+		If(x==y){
+			System.out.println("x is equal to y");
+		}
+		If(x>y){
+			System.out.println("x is greater than y");
+		}
+		
+	}
+
+}

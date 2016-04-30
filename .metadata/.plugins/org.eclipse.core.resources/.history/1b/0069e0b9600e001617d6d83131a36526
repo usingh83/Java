@@ -1,0 +1,11 @@
+package day1.examples;
+
+public class ExampleString {
+
+	public static void main(String[] args) {
+		String st="Donald Trump";
+        
+				System.out.println("Hello"+st);
+	}
+
+}
