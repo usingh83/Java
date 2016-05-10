@@ -1,0 +1,50 @@
+package day1.examples;
+
+import java.util.Scanner;
+
+public class ExceptionHandler {
+	static boolean flag;
+	static int B=2;
+	static int H=3;
+	int setB()
+	    {
+	    Scanner scan=new Scanner(System.in);
+	    B=scan.nextInt();
+	    try{        
+	        if(B<0)
+	            {
+	            flag=false;
+	            throw new Exception(" Breadth and height must be positive");
+	        }else flag=true;
+	    }catch(Exception e){
+	        System.out.println(e);
+	    }
+	    return B;
+	}
+	int setH()
+	    {
+	    Scanner scan1=new Scanner(System.in);
+	    H=scan1.nextInt();
+	    try{    
+	        if(H<0)
+	            {
+	            flag=false;
+	            throw new Exception(" Breadth and height must be positive");
+	        }else flag=true;
+	    }catch(Exception e){
+	        System.out.println(e);
+	    }
+	    return H;
+	}
+
+
+	public static void main(String[] args){
+		if(flag){
+			int area=B*H;
+			System.out.print(area);
+		}
+		
+	}//end of main
+
+}//end of 
+

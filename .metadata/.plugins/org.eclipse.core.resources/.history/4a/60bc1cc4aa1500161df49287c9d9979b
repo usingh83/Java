@@ -1,0 +1,24 @@
+package day1.examples;
+
+import java.util.Scanner;
+
+public class ExceptionHandler {
+	static boolean flag=true;
+	static Scanner scan=new Scanner(System.in);
+	static int B=scan.nextInt();
+	static Scanner scan1=new Scanner(System.in);
+	static int H=scan1.nextInt();
+	
+	
+	
+	public static void main(String[] args){
+		System.out.print(B+" "+H+" "+flag);
+		if(flag){
+			int area=B*H;
+			System.out.print(area);
+		}
+		
+	}//end of main
+
+}//end of 
+

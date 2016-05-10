@@ -18,9 +18,10 @@ public class ExampleUserInput {
 		System.out.println(b);
 		
 		System.out.println("Enter a String");
-		String c=scan.nextLine();		
+		String c=scan.nextLine();
+		String c1=scan.nextLine();
 		System.out.println("You Entered String");
-		System.out.println(c);
+		System.out.println(c1);
 		scan.close();
 	}
 

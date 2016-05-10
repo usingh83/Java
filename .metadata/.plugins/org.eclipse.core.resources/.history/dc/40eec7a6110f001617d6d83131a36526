@@ -1,0 +1,9 @@
+package day1.examples;
+
+public class StudentEncaps {
+	
+	int id;
+	String name;
+	int Marks;
+
+}

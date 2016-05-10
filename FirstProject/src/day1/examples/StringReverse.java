@@ -1,0 +1,22 @@
+package day1.examples;
+
+import java.util.Scanner;
+
+public class StringReverse {
+	public static String FirstReverse(String str) { 
+		  char x[]= str.toCharArray();
+		    String s="";
+		    for(int i=str.length()-1;i>=0;i--)
+		      s=s+x[i];
+		       
+		    return s;
+		    
+		  } 
+		  
+		  public static void main (String[] args) {  
+		    // keep this function call here     
+		    Scanner s = new Scanner(System.in);
+		    System.out.print(FirstReverse(s.nextLine())); 
+		  }   
+
+}
